@@ -1,0 +1,116 @@
+@import "~antd/dist/antd.css";
+
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  background-color: #dde3fb;
+}
+
+/* Language Selection */
+
+.language-container {
+  max-width: 900px;
+  background: #fff;
+  padding: 50px 0px;
+  box-shadow: rgba(60, 66, 87, 0.12) 0px 7px 14px 0px,
+    rgba(0, 0, 0, 0.12) 0px 3px 6px 0px;
+  border-radius: 10px;
+  margin: 120px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.language-container > h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 200;
+}
+
+.buttons {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Register */
+.form-container {
+  max-width: 800px;
+  margin: 50px auto;
+}
+
+.card {
+  width: 600px;
+  margin-top: 50px;
+}
+
+.formInput {
+  font-size: 1.1rem;
+  height: 3rem;
+  padding: 9px;
+}
+
+.ant-input {
+  font-size: 1.1rem;
+  height: 3rem;
+  padding: 9px;
+}
+
+.ant-select-selector {
+  border-radius: 25px !important;
+  font-size: 1.1rem !important;
+  height: 3rem !important;
+  padding: 9px !important;
+}
+
+.formButton {
+  font-size: 1.2rem;
+}
+
+.formCard {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.09);
+  border: none;
+  border-radius: 10px;
+}
+
+/* Dashboard */
+
+.dashboard-content {
+  max-width: 900px;
+  margin: 47px auto;
+  position: relative;
+  left: 200px;
+  z-index: 100;
+}
+
+/* Company Header */
+
+.company-header-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  margin-top: 40px;
+}
+
+/* Company Details */
+.details-container {
+  display: grid;
+  margin-top: 40px;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+/* CompanyRequests */
+
+.request-number {
+  display: inline;
+  font-size: 2.5rem;
+}
+
+select {
+  width: 100%;
+}
+
+.avg {
+  font-size: 3.5rem;
+}
