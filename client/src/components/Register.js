@@ -102,7 +102,7 @@ function RegisterForm() {
               >
                 {t("Register", "Register" )}
               </Button>{" "}
-                {t("Or", "Or" )} <Link to="/login"> {t("RegisterNow", "Already have an account Login now!" )} </Link>
+                {t("Or", "Or" )} <Link to="/login"> {t("LoginNow", "Already have an account Login now!" )} </Link>
             </Form.Item>
           </Form>
         </Card>

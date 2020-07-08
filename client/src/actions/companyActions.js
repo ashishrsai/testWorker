@@ -25,10 +25,10 @@ import {
   CLEAR_ALL,
 } from "./constants";
 
-export const addCompany = ({ companyName, contactPersonName, state, city }) => {
+export const addCompany = ({ companyName, contactPersonName, contactPersonDesignation, gstNumber, address, state, city }) => {
   return {
     type: ADD_COMPANY,
-    body: { companyName, contactPersonName, state, city },
+    body: { companyName, contactPersonName, contactPersonDesignation, gstNumber, address,state, city },
   };
 };
 

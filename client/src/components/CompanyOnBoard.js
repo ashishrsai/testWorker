@@ -68,6 +68,48 @@ function CompanyOnBoard(props) {
             />
           </Form.Item>
           <Form.Item
+            name="contactPersonDesignation"
+            rules={[
+              {
+                required: true,
+                message: "Please enter contact person designation!",
+              },
+            ]}
+          >
+            <Input
+              style={{ borderRadius: "25px" }}
+              placeholder= {t("ContactPersonName", "Contact Person Designation" )}
+            />
+          </Form.Item>
+          <Form.Item
+            name="gstNumber"
+            rules={[
+              {
+                required: true,
+                message: "Please enter company GST Number!",
+              },
+            ]}
+          >
+            <Input
+              style={{ borderRadius: "25px" }}
+              placeholder= {t("ContactPersonName", "GST Number" )}
+            />
+          </Form.Item>
+          <Form.Item
+            name="address"
+            rules={[
+              {
+                required: true,
+                message: "Please enter company address!",
+              },
+            ]}
+          >
+            <Input
+              style={{ borderRadius: "25px" }}
+              placeholder= {t("ContactPersonName", "Address" )}
+            />
+          </Form.Item>
+          <Form.Item
             name="state"
             rules={[
               {

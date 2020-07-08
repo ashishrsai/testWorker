@@ -65,10 +65,27 @@ function CompanyOnBoard2(props) {
               onChange={(val) => setSkill(val)}
               value={skill}
             >
-              <Option value="Moving">Moving</Option>
-              <Option value="Fork Lift">Fork Lift</Option>
-              <Option value="Clay Work">Clay Work</Option>
-              <Option value="Construction Work">Construction Work</Option>
+              <Option value="Mason"> {t("mason", "Mason")} </Option>
+              <Option value="Masons Helper"> {t("MasonsHelper", "Masons Helper")}</Option>
+              <Option value="Barbenders">{t("Barbenders", "Barbenders")}</Option>
+              <Option value="Barbenders Helper">{t("BarbendersHelper", "Barbenders Helper")}</Option>
+              <Option value="Carpenters">{t("Carpenters", "Carpenters")}</Option>
+              <Option value="Carpenters Helper">{t("CarpentersHelper", "Carpenters Helper")}</Option>
+              <Option value="Plumbers Helper">{t("PlumbersHelper", "Plumbers Helper")}</Option>
+              <Option value="Flooring">{t("Flooring", "Flooring")}</Option>
+              <Option value="Flooring Helper">{t("FlooringHelper", "Flooring Helper")}</Option>
+              <Option value="Painters">{t("Painters", "Painters")}</Option>
+              <Option value="Painters Helper">{t("PaintersHelper", "Painters Helper")}</Option>
+              <Option value="HVAC Ducting">{t("HVACDucting", "HVAC Ducting")}</Option>
+              <Option value="HVAC Ducting Helper">{t("HVACDuctingHelper", "HVAC Ducting Helper")}</Option>
+              <Option value="Electricians">{t("Electricians", "Electricians")}</Option>
+              <Option value="Electricians Helper">{t("ElectriciansHelper", "Electricians Helper")}</Option>
+              <Option value="Male Mazdoor">{t("MaleMazdoor", "Male Mazdoor")}</Option>
+              <Option value="Female Mazdoor">{t("FemaleMazdoor", "Female Mazdoor")}</Option>
+              <Option value="Cleaners">{t("Cleaners", "Cleaners")}</Option>
+              <Option value="Loading Unloading Helper">{t("LoadingUnloadingHelper", "Loading Unloading Helper")}</Option>
+              <Option value="Welders">{t("Welders", "Welders")}</Option>
+              <Option value="Foreman Munshi">{t("ForemanMunshi", "Foreman Munshi")}</Option>
             </Select>
           </Form.Item>
           <Form.Item
@@ -108,7 +125,7 @@ function CompanyOnBoard2(props) {
           >
             <Input
               style={{ borderRadius: "25px" }}
-              placeholder= {t("maximumWagePerHour", "Maximum Wage Per Hour")}
+              placeholder= {t("maximumWagePerHour", "Maximum Wage Per Day")}
             />
           </Form.Item>
           <Form.Item
@@ -126,7 +143,7 @@ function CompanyOnBoard2(props) {
             />
           </Form.Item>
           <Form.Item name="relocationCost" valuePropName="checked">
-            <Checkbox>{t("relocationCost", "Will you provide relocation cost ?")}</Checkbox>
+            <Checkbox>{t("relocationCost", "Will you provide food and residence?")}</Checkbox>
           </Form.Item>
           <Form.Item>
             <Button

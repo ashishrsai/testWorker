@@ -79,8 +79,29 @@
     "WorkerOverview": "आपका विवरण",
     "WorkerDetails": "मजदूर का विवरण",
     "CompanyList": "कंपनियों की सूची",
-    "WorkerList": "मजदूरों की सूची"
-
+    "WorkerList": "मजदूरों की सूची",
+    "mason":"मकान बनाने वाला",
+    "MasonsHelper": "एक राजमिस्त्री का हेल्पर",
+    "Barbenders":"बार बेंडर्स",
+    "BarbendersHelper":"बार बेंडर्स का हेल्पर",
+    "Carpenters":"सुतार",
+    "CarpentersHelper":"सुतार का हेल्पर",
+    "Plumbers":"प्लंबर",
+    "PlumbersHelper":"प्लंबर का हेल्पर",
+    "Flooring":"फ़्लोरिंग वर्कर",
+    "FlooringHelper":"फ़्लोरिंग वर्कर का हेल्पर",
+    "Painters":"पेंटर",
+    "PaintersHelper":"पेंटर का हेल्पर",
+    "HVACDucting":"एचवीएसी डक्टिंग",
+    "HVACDuctingHelper":"एचवीएसी डक्टिंग का हेल्पर",
+    "Electricians":"इलेक्ट्रीशियन",
+    "ElectriciansHelper":"इलेक्ट्रीशियन का हेल्पर",
+    "MaleMazdoor":"पुरुष मजदूर",
+    "FemaleMazdoor":"महिला मज़दूर",
+    "Cleaners":"सफाई कर्मचारी",
+    "LoadingUnloadingHelper":"लोडिंग / अनलोडिंग हेल्पर",
+    "Welders":"वेल्डर",
+    "ForemanMunshi":"फोरमैन / मुंशी"
 
 
   }

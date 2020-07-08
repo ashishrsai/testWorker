@@ -10,14 +10,11 @@ exports.getAllCompanies = async (req, res) => {
 };
 
 exports.addCompany = async (req, res) => {
-  const { companyName, contactPersonName, state, city } = req.body;
+  console.log("This is addcompany log", req.body);
+  const { companyName, contactPersonName, contactPersonDesignation, gstNumber, address,state, city } = req.body;
   const { phoneNumber: companyPhoneNumber } = await User.findById(req.user.id);
   const company = new Company({
-    companyName,
-    contactPersonName,
-    companyPhoneNumber,
-    state,
-    city,
+    companyName, contactPersonName, companyPhoneNumber, contactPersonDesignation, gstNumber, address,state, city,
   });
   company.save();
   return res.json({ message: "Company Added" });
