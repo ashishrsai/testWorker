@@ -78,7 +78,7 @@ function CompanyOnBoard(props) {
           >
             <Input
               style={{ borderRadius: "25px" }}
-              placeholder= {t("ContactPersonName", "Contact Person Designation" )}
+              placeholder= {t("contactPersonDesignation", "Contact Person Designation" )}
             />
           </Form.Item>
           <Form.Item
@@ -92,7 +92,7 @@ function CompanyOnBoard(props) {
           >
             <Input
               style={{ borderRadius: "25px" }}
-              placeholder= {t("ContactPersonName", "GST Number" )}
+              placeholder= {t("gstNumber", "GST Number" )}
             />
           </Form.Item>
           <Form.Item
@@ -106,7 +106,7 @@ function CompanyOnBoard(props) {
           >
             <Input
               style={{ borderRadius: "25px" }}
-              placeholder= {t("ContactPersonName", "Address" )}
+              placeholder= {t("address", "Address" )}
             />
           </Form.Item>
           <Form.Item

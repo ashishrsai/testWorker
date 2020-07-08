@@ -101,7 +101,10 @@
     "Cleaners":"सफाई कर्मचारी",
     "LoadingUnloadingHelper":"लोडिंग / अनलोडिंग हेल्पर",
     "Welders":"वेल्डर",
-    "ForemanMunshi":"फोरमैन / मुंशी"
+    "ForemanMunshi":"फोरमैन / मुंशी",
+    "contactPersonDesignation":"संपर्क व्यक्ति का पदनाम",
+    "gstNumber":"जीएसटी नंबर",
+    "address": "पता"
 
 
   }
